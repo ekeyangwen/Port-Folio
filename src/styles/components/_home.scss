@@ -1,0 +1,69 @@
+.home {
+  height: 86vh;
+  .background {
+    background-color: #983122;
+    height: 86vh;
+  }
+  .imgFond {
+    filter: opacity(0.6);
+    z-index: 1;
+    height: 100%;
+  }
+  .backgroundImg {
+    height: 86vh;
+    width: 100%;
+  }
+  .presentationEtContact {
+    text-align: center;
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    height: 40%;
+    width: 100%;
+  }
+  .nom,
+  .titre {
+    font-size: 40px;
+    color: #fff;
+    margin: 0px;
+  }
+
+  .recherche {
+    color: #fff;
+    margin: 20px;
+    margin-top: 45px;
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+  .enveloppe {
+    background-color: #fff;
+    border: #983122 solid 5px;
+    margin-top: 90px;
+  }
+  .send {
+    width: 96px;
+    height: 96px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .home {
+    .nom,
+    .titre {
+      font-size: 20px;
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .home {
+    .nom,
+    .titre {
+      font-size: 64px;
+      color: #fff;
+      margin: 0px;
+    }
+  }
+}

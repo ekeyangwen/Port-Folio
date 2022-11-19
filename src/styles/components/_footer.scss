@@ -1,0 +1,35 @@
+.footer {
+  .madeBy,
+  .contact {
+    font-size: 16px;
+    margin: 0;
+    text-decoration: none;
+  }
+  .madeBy {
+    font-size: 12px;
+  }
+  .contact:visited {
+    color: #983122;
+  }
+  .link,
+  .git {
+    width: 32px;
+    height: 32px;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .footer {
+    .contact {
+      font-size: 12px;
+    }
+    .madeBy {
+      font-size: 10px;
+    }
+    .link,
+    .git {
+      width: 15px;
+      height: 15px;
+    }
+  }
+}

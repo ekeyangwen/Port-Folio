@@ -1,0 +1,121 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  ul {
+    padding: 0px;
+  }
+  .listOfSkills {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .mainSkills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .skillPicture {
+    width: 50px;
+    height: auto;
+    margin-top: 20px;
+  }
+  .hardSkills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+  }
+  .skill {
+    margin: 5px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  li {
+    list-style: none;
+  }
+  .hard {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+  .hardTitle {
+    align-self: center;
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+  .frontSkills,
+  .devSkills,
+  .environementSkills,
+  .librairiesSkills {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .hardskill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0;
+    margin-bottom: 20px;
+    font-size: 17px;
+    .skill {
+      width: auto;
+      height: auto;
+    }
+  }
+  .skillSkill {
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+@media screen and (max-width: 576px) {
+  .skills {
+    justify-content: center;
+    .mainSkills {
+      display: flex;
+    }
+    .frontSkills,
+    .devSkills,
+    .environementSkills,
+    .librairiesSkills {
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .listOfSkills {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .skillPicture {
+      width: 25px;
+    }
+    .skillSkill {
+      font-size: 12px;
+      font-weight: 400;
+    }
+    .hardSkills {
+      margin-top: 0;
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .skills {
+    .listOfSkills {
+      width: 70%;
+    }
+  }
+}
