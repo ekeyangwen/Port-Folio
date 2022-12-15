@@ -32,8 +32,13 @@ const QuiSuiJe = () => {
           <br />
         </p>
         <p className="CV">
-          <a href="../../../cvElisa.pdf" download="CV_ElisaKaba.pdf">
-            Pour en savoir plus sur mon parcours téléchargez mon CV ici
+          Pour en savoir plus sur mon parcours téléchargez mon CV{" "}
+          <a
+            href="../../../cvElisa.pdf"
+            download="CV_ElisaKaba.pdf"
+            className="ici"
+          >
+            ici
           </a>
         </p>
       </div>

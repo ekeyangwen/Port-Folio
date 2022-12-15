@@ -7,11 +7,11 @@ const Home = () => {
         <div className="presentationEtContact">
           <h1 className="nom">Elisa Kaba</h1>
           <h2 className="titre">Développeuse FrontEnd</h2>
-          <h3 className="recherche">
+          {/* <h3 className="recherche">
             Recherche alternance 16 mois: Conceptrice développeuse d'aplicatons
             JAVA <br />
             Dès janvier 2023
-          </h3>
+          </h3> */}
           <NavLink className="contactSend" to="/contact">
             <div className="enveloppe">
               <img
