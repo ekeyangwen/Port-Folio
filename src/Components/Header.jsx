@@ -7,7 +7,8 @@ const Header = () => {
   const [transormBurger, setTransformBurger] = useState(true);
   const [transformLogo, setTransformLogo] = useState(true);
 
-  const handleShowList = () => {
+  const handleShowList = (e) => {
+    e.preventDefault();
     setShowNav(!showNav);
     setTransformBurger(!transormBurger);
     setTransformLogo(!transformLogo);
