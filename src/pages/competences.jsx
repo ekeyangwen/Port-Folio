@@ -14,8 +14,7 @@ const Competences = () => {
     }, []);
 
     let dataSkills = skills.data
-    console.log(dataSkills)
-
+   
     return (
 
         <div className="carousel">
